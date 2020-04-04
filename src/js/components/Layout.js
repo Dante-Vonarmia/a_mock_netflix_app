@@ -5,7 +5,9 @@ import { connect } from "react-redux"
 import { fetch, addRec, remove } from "../actions/userActions"
 import List from './List'
 
+// Using hooks and side-effect function in a functional component
 const Layout = props => {
+  // Pass down all the props from store
   const {
     mylist,
     recommendations,
@@ -17,6 +19,7 @@ const Layout = props => {
       props.fetch()
   },[fetch])
 
+  // using return directly instead of using render which is more efficiency here.
   return (
     <div className="container">
       <h6>My List</h6>
@@ -50,10 +53,13 @@ const Layout = props => {
     </div>
   )
 }
+
+// mapping the redux state and dispatch
 const mapStateToProps = (state) => ({
   mylist: state.data.mylist,
   recommendations: state.data.recommendations
 })
+
 const mapDispatchToProps = dispatch =>
   bindActionCreators({
     fetch,
@@ -61,4 +67,5 @@ const mapDispatchToProps = dispatch =>
     remove
   }, dispatch)
 
+// connect function here is a HOC.
 export default connect(mapStateToProps, mapDispatchToProps)(Layout);
