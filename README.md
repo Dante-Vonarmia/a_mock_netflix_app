@@ -15,6 +15,11 @@ run it:
 	
 	npm install && npm run dev
 
+#### Step 4
+Open the Browser:
+	
+	http://localhost:8080
+
 #### The task is to create a mock Netflix like page with editable rows of titles using any framework you want (preferably React).
 > Please complete the below test and share the git link and also any explanation in the email if required. 
 ---
