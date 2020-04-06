@@ -3,17 +3,17 @@
 #### step 1
 make yourself a folder:   
 
-	`mkdir ~/react-assignment && cd ~/react-assignment`
+	mkdir ~/react-assignment && cd ~/react-assignment
 
 #### Step 2
 clone the repository: 
 
-	`git clone https://github.com/Dante-Vonarmia/a_mock_netflix_app`
+	git clone https://github.com/Dante-Vonarmia/a_mock_netflix_app
 
 #### Step 3
 run it: 
 	
-	`npm install && npm run dev`
+	npm install && npm run dev
 
 #### The task is to create a mock Netflix like page with editable rows of titles using any framework you want (preferably React).
 > Please complete the below test and share the git link and also any explanation in the email if required. 
