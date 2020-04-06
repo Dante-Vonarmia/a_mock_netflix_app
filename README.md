@@ -1,14 +1,14 @@
 ### USAGE
 
-#### step 1
-make yourself a folder:   
-
-	mkdir ~/react-assignment && cd ~/react-assignment
-
-#### Step 2
+#### Step 1
 clone the repository: 
 
 	git clone https://github.com/Dante-Vonarmia/a_mock_netflix_app
+
+#### step 2
+Enter the folder wherever you've download:   
+
+	cd ./a_mock_netflix_app
 
 #### Step 3
 run it: 
