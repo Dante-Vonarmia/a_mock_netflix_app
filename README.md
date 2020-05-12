@@ -1,5 +1,5 @@
 ### USAGE
-
+---
 #### Step 1
 clone the repository: 
 
